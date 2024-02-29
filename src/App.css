@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background-image: url(../public/image.webp);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-logo {
+  height: 100px;
+    border-radius: 50px;
+    width: 100px;
+    border: 3px solid white;
+}
+
+.enter-task{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.new-task{
+  position: relative;
+}
+
+.add-icon{
+  position: absolute;
+  background-color: #9b8a70;
+  left: 60%;
+  top: 20%;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.todo-list {
+  background-color: rgb(155, 138, 112, 0.8);
+}
+
+.task-list{
+  background-color: #e4d6cd;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.task-list::-webkit-scrollbar{
+  display: none;
+}
+
+.delete-btn{
+  background-color: #f5b2b2;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  
+}
+
+.expand-div{
+  background-color: rgb(241, 223, 223);
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
